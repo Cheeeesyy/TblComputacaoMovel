@@ -1,0 +1,29 @@
+O que está sendo centralizado?
+R: O widget Column está sendo centralizado pois o widget pai o centraliza
+
+O que está alinhado à esquerda?
+R: Os textos Text("item 1") até o 3 estão alinhados na esquerda porque foi usado crossAxisAlignment: CrossAxisAlignment.start
+
+O que significa spaceBetween?
+R: Espaço entre elementos
+
+O que acontece se trocar para spaceAround?
+R: Fica um espaçamento igual entre todos os elementos
+
+Diferença entre EdgeInsets.all(), EdgeInsets.symmetric() e EdgeInsets.only()
+EdgeInsets.all(valor)
+R: EdgeInsets.all() -> aplica o mesmo valor para todos os lados
+EdgeInsets.symmetric() -> aplica valores por pares de eixos
+EdgeInsets.only() -> permite definir lado por lado de forma personalizada
+
+Por que evitar largura fixa?
+R: Evitar largura fixa é importante porque telas diferentes possuem tamanhos diferentes
+
+Como adaptar para telas diferentes?
+R: Usando medidas proporcionais com MediaQuery que permite com que o widget ocupe uma porcentagem da tela independente do aparelho
+
+
+
+
+
+
